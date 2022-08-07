@@ -1,0 +1,660 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif; */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 30px;
+}
+
+.logo img {
+    height: 30px;
+}
+
+.navlist {
+    display: flex;
+    list-style-type: none;
+}
+
+.navlist li {
+    margin: 0px 15px;
+}
+
+.navlist li a {
+    text-decoration: none;
+    color: hsl(243, 87%, 12%);
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 550px;
+    padding-top: 35px;
+    padding: 35px;
+    padding-bottom: 120px;
+}
+
+.flyo-content,
+.flyo-img {
+    width: 50%;
+    height: 100%;
+}
+
+.flyo-content {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+
+}
+
+.flyo-content h1 {
+    font-size: 38px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.flyo-content p {
+    font-size: 16px;
+    padding-right: 10px;
+}
+
+.input {
+    padding-top: 25px;
+}
+
+.input input {
+    padding: 10px;
+    width: 350px;
+    border: 1px solid hsl(238, 22%, 44%);
+}
+
+.input a,
+.sub-input a {
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 40px;
+    background-color: hsl(224, 93%, 58%);
+    color: #fff;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.input a:hover,
+.sub-input a:hover {
+    background-color: hsl(199, 90%, 66%);
+}
+
+.flyo-img {
+    height: 90%;
+    background: url('/images/illustration-1.svg') no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.info {
+    width: 100%;
+    height: 600px;
+    background-color: hsl(240, 75%, 98%);
+    padding: 45px 35px;
+    display: flex;
+}
+
+.crev {
+    width: 100%;
+}
+
+.crev img {
+    width: 100%;
+    margin-bottom: -10px;
+    z-index: 999;
+}
+
+.info-content {
+    width: 60%;
+}
+
+.info-content h2 {
+    font-size: 38px;
+    padding-bottom: 20px;
+}
+
+.info-content p {
+    padding-bottom: 10px;
+    width: 80%;
+}
+
+.info-content a {
+    padding-bottom: 10px;
+    color: hsl(170, 45%, 43%);
+    text-decoration: none;
+    border-bottom: 2px solid hsl(170, 45%, 43%);
+}
+
+.review-box {
+    width: 350px;
+    height: 200px;
+    padding: 20px;
+    padding-right: 30px;
+    margin-top: 45px;
+    border-radius: 5px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+
+}
+
+.review-box p {
+    font-size: 14px;
+    width: 100%;
+}
+
+.review-box img {
+    width: 20px;
+}
+
+.id {
+    display: flex;
+
+}
+
+.img img {
+    width: 30px;
+    border-radius: 50%;
+}
+
+.name {
+    margin-left: 5px;
+}
+
+.name span {
+    font-weight: bold;
+
+}
+
+.name p {
+    font-size: 12px;
+}
+
+
+
+.info-img {
+    width: 40%;
+    height: 70%;
+    background: url('/images/illustration-2.svg') no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.sub {
+    display: flex;
+    height: 350px;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 50px;
+    background-color: hsl(238, 22%, 44%);
+    color: #fff;
+
+}
+
+.sub-info,
+.sub-input {
+    width: 50%;
+
+
+}
+
+.sub-info h3 {
+    font-size: 28px;
+    padding-bottom: 15px;
+}
+
+.sub-info p {
+    padding-bottom: 10px;
+    width: 80%;
+}
+
+.sub-input {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+
+.sub-input input {
+    font-size: 16px;
+    padding: 8px 10px;
+    border-radius: 3px;
+    border: none;
+
+}
+
+.sub-input a {
+    text-decoration: none;
+    padding: 10px 21px;
+    background-color: hsl(224, 93%, 58%);
+    color: #fff;
+    width: 56%;
+    margin-top: 10px;
+    margin-left: -1.5px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+footer {
+    height: 400px;
+    background-color: hsl(243, 87%, 12%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px;
+    color: #fff;
+
+}
+
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.footer-logo span {
+    /* margin-right: 15px; */
+    margin: 10px 0px;
+
+}
+
+.footer-logo span img {
+    height: 20px;
+    margin-right: 20px;
+
+}
+
+.flogo {
+    width: 120px;
+    margin-bottom: 20px;
+    filter: invert(100);
+
+}
+
+.tags {
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.f-list {
+    list-style-type: none;
+
+}
+
+.f-list li {
+    margin: 10px 0px;
+}
+
+.f-list li a {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.f-list li a:hover {
+    color: hsl(224, 93%, 58%);
+
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 100px;
+
+}
+
+.social img {
+    /* width: 30px; */
+    height: 45px;
+    border: .8px solid #000;
+    border-radius: 50%;
+    padding: 10px;
+    filter: invert(100);
+    margin: 5px;
+    cursor: pointer;
+}
+
+.social img:hover {
+    border: .8px solid hsl(224, 93%, 58%);
+}
+
+
+@media screen and (max-width: 1150px) { 
+    .flyo-content {
+        margin-top: 35px;
+    }
+   .input input{
+    width: auto;
+   }
+   .social{
+    margin-right: 50px;
+   }
+   .footer-logo span img{
+    margin-right: 10px;
+    
+   }
+}
+@media screen and (max-width: 850px) { 
+    .container {
+        flex-direction: column-reverse;
+        height: 650px;
+        text-align: center;
+        padding: 10px 15px;
+        padding-bottom: 10px;
+    }
+  
+    .flyo-content {
+        height: 50%;
+        margin-top: 0px;
+      
+    }
+    .flyo-content h1{
+        font-size: 28px;
+        line-height: 1.5;
+
+    }
+    .flyo-content p{
+        font-size: 16px;
+        padding-right: 0px;
+        padding-top: 10px;
+    }
+ 
+
+    .flyo-content,
+    .flyo-img {
+        width: 100%;
+        height: 50%;
+    }
+
+    .input {
+        padding-top: 25px;
+        display: flex;
+       flex-direction: column;
+       align-items: center;
+    }
+    .input input {
+        margin-bottom: 10px;
+       width: 80%;
+    }
+
+    .input a {
+        margin-left: 0px;
+       width: 80%;
+    }
+    .info{
+        flex-direction: column-reverse;
+       height: 950px;
+       padding: 10px 20px;
+       text-align: center;
+
+    }
+    .info-content {
+        width: 100%;
+        height: 60%;
+     
+    }
+    .info-img{
+        height: 40%;
+        width: 100%;
+
+    }
+    .info-content{
+        text-align: center;
+    }
+    .info-content h2{
+        font-size: 18px;
+    }
+    .info-content p{
+        text-align: left;
+        width: 100%;
+        color: hsl(238, 22%, 44%);
+        padding-bottom: 20px;
+
+    }
+    .info-content a {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .review-box{
+        padding-right: 8px;
+        width: 350px;
+    }
+    .id{
+        text-align: left;
+    }
+    .sub{
+        flex-direction: column;
+        height: 450px;
+    }
+    .sub-info{
+        width: 100%;
+        text-align: center;
+    }
+    .sub-info h3{
+        font-size: 22px;
+    }
+    .sub-info p{
+        width: 100%;
+        line-height: 1.5;
+        color: hsl(240, 75%, 98%);
+    }
+    .sub-input{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .sub-input a{
+        width: 100%;
+
+    }
+    footer{
+        height: 300px;
+        background-color: hsl(243, 87%, 12%);
+        display: flex;
+        align-items:center;
+        justify-content: space-between;
+        padding: 0px 50px;
+        color: #fff;
+    }
+    .footer-logo{
+        margin-bottom: 0px;
+    }
+
+  
+    .social{
+        flex-direction: column;
+    }
+    .social img{
+        height: 35px;
+    }
+
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 450px) {
+   
+    .navbar {
+        padding: 20px 15px;
+    }
+
+    .navlist li {
+        margin: 0px 10px;
+    }
+
+    .container {
+        flex-direction: column-reverse;
+        height: 800px;
+        text-align: center;
+        padding: 10px 15px;
+        padding-bottom: 10px;
+    }
+  
+    .flyo-content {
+        height: 50%;
+        margin-top: 0px;
+
+    }
+    .flyo-content h1{
+        font-size: 22px;
+        line-height: 1.5;
+
+    }
+    .flyo-content p{
+        font-size: 16px;
+        padding-right: 0px;
+        padding-top: 10px;
+    }
+    .flyo-content p br{
+       display: none;
+    }
+
+    .flyo-content,
+    .flyo-img {
+        width: 100%;
+        height: 50%;
+    }
+
+    .input {
+        padding-top: 25px;
+        display: flex;
+       flex-direction: column;
+    }
+    .input input {
+        margin-bottom: 10px;
+    }
+    .input a {
+        margin-left: 0px;
+    }
+    .info{
+        flex-direction: column-reverse;
+       height: 950px;
+       padding: 10px 20px;
+       text-align: center;
+    }
+    .info-content {
+        width: 100%;
+        height: 60%;
+    }
+    .info-img{
+        height: 40%;
+        width: 100%;
+
+    }
+    .info-content{
+        text-align: center;
+    }
+    .info-content h2{
+        font-size: 18px;
+    }
+    .info-content p{
+        text-align: left;
+         
+        width: 100%;
+        color: hsl(238, 22%, 44%);
+        padding-bottom: 20px;
+
+    }
+    .info-content a {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .review-box{
+        padding-right: 8px;
+        width: 80vw;
+    }
+    .sub{
+        flex-direction: column;
+        height: 450px;
+    }
+    .sub-info{
+        width: 100%;
+        text-align: center;
+    }
+    .sub-info h3{
+        font-size: 22px;
+    }
+    .sub-info p{
+        width: 100%;
+        line-height: 1.5;
+        color: hsl(240, 75%, 98%);
+    }
+    .sub-input{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .sub-input a{
+        width: 100%;
+
+    }
+    footer{
+        flex-direction: column;
+        height: 600px;
+        background-color: hsl(243, 87%, 12%);
+        display: flex;
+        align-items:flex-start;
+        justify-content: center;
+        padding: 0px 50px;
+        color: #fff;
+        text-align: left;
+    }
+    .footer-logo{
+        margin-bottom: 0px;
+    }
+
+    .tags{
+        flex-direction: column;
+    }
+    .social{
+        margin-left: 20vw;
+        flex-direction: row;
+    }
+    .social img{
+        height: 35px;
+    }
+
+
+}
+
+@media screen and (max-width: 375px) {
+
+    .navbar {
+        padding: 20px 15px;
+    }
+
+    .navlist li {
+        margin: 0px 5px;
+    }
+
+    .navlist li a {
+        font-size: 18px;
+    }
+
+}
